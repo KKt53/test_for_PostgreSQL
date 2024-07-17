@@ -113,6 +113,16 @@ namespace WebApplication1
                             Session["value_pass"] = TextBox2.Text;
                             Response.Redirect("Rogined.aspx");
                         }
+                        else
+                        {
+                            Label3.Text = "PASSが間違っています";
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Label3.Text = "IDが間違っています";
+                        break;
                     }
                 }
             }

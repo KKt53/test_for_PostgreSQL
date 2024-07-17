@@ -16,7 +16,7 @@
             <asp:Label runat="server" Text="PASS:" ID="Label2"></asp:Label>
             <asp:TextBox runat="server" ID="TextBox2"></asp:TextBox>
             <br />
-            <asp:Button runat="server" Text="ログインボタン" OnClientClick="Button1_Click" OnClick="Button1_Click" ID="Bt_1"></asp:Button>
+            <asp:Button runat="server" Text="ログインボタン" OnClientClick="Button1_Click" OnClick="Button1_Click" ID="Bt_1"></asp:Button><asp:Label runat="server" ID="Label3"></asp:Label>
             <br />
             <asp:Button runat="server" Text="会員登録" ID="Bt_2" OnClick="Bt_2_Click"></asp:Button>
             <br />
