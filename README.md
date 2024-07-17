@@ -1,0 +1,4 @@
+test.aspxとtest_2.aspxとRogined.aspxが学習で作成したファイルです。
+testがデフォルトの画面で、そこからtest_2,Roginedにアクセスできるようになっています。
+test_2ではInsertでデータを挿入できます。
+Roginedはログインした後に表示される画面で、この画面ではログインしたアカウントの削除ができます。
