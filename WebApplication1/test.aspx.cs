@@ -116,13 +116,19 @@ namespace WebApplication1
                         else
                         {
                             Label3.Text = "PASSが間違っています";
-                            break;
+                            if (i == nameList.Count - 1)
+                            {
+                                break;
+                            }
                         }
                     }
                     else
                     {
                         Label3.Text = "IDが間違っています";
-                        break;
+                        if (i == nameList.Count - 1)
+                        {
+                            break;
+                        }
                     }
                 }
             }
